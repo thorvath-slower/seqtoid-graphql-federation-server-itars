@@ -1,9 +1,8 @@
 name: Deploy to sandbox env
 
 on:
-  push:
-    branches:
-      - sandbox
+  # CZID-241 (ITARS detach): push(sandbox) trigger disabled — deployed via Happy on a
+  # self-hosted ARM64 runner to CZI EKS. Manual-only.
   workflow_dispatch:
 
 jobs:

@@ -1,7 +1,7 @@
 on:
-  push:
-    branches:
-      - main
+  # CZID-241 (ITARS detach): push(main) trigger disabled — used chanzuckerberg/github-app-token
+  # + CZI release-please app secrets. Manual-only until repointed to an owner app/token.
+  workflow_dispatch:
 
 name: release-please
 jobs:

@@ -1,11 +1,8 @@
 name: Ensure all PRs have conventional commit titles
 on:
-  pull_request:
-    types:
-      - edited
-      - opened
-      - synchronize
-      - reopened
+  # CZID-241 (ITARS detach): PR trigger disabled — used chanzuckerberg/github-actions
+  # (a customer-maintained action). Manual-only until replaced with an owner-local check.
+  workflow_dispatch:
 
 jobs:
   conventional_commit_title:

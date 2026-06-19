@@ -1,5 +1,8 @@
 name: Jest unit tests
-on: push
+on:
+  # CZID-241 (ITARS detach): auto-trigger disabled — ran on a self-hosted ARM64 runner
+  # (docker swarm + czidnet). Manual-only until re-platformed to a hosted runner.
+  workflow_dispatch:
 
 jobs:
   jest-unit-tests:
