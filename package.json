@@ -46,7 +46,7 @@
   },
   "devDependencies": {
     "@types/jest": "^29.5.11",
-    "prettier": "^3.2.5",
+    "prettier": "^3.8.4",
     "ts-jest": "^29.1.1"
   },
   "overrides": {}
