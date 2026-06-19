@@ -1,6 +1,6 @@
 on:
-  release:
-    types: [published]
+  # CZID-241 (ITARS detach): release trigger disabled — deployed via Happy on a self-hosted
+  # ARM64 runner to CZI EKS. Manual-only.
   workflow_dispatch:
     inputs:
       release_tag:
